@@ -1,5 +1,7 @@
 # hyper-proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jgillich/hyper-proxy.svg)](https://greenkeeper.io/)
+
 A automated reverse proxy and load balancer for [Hyper](https://hyper.sh/).
 
 ## Getting started
