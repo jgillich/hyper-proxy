@@ -7,6 +7,8 @@ const spawn = require('child_process').spawn;
 const fs = require('mz/fs');
 
 let configTemplate = Handlebars.compile(`
+gzip
+
 {{#each services}}
 {{{url}}} {
     proxy / {{#backends}}{{.}}{{/backends}} {
